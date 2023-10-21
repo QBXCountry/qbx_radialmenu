@@ -90,6 +90,7 @@ local function SetupVehicleMenu()
     }}
 
     vehicleitems[#vehicleitems+1] = convert(Config.VehicleDoors)
+    vehicleitems[#vehicleitems+1] = convert(Config.VehicleRadio) -- Radio Mia
     if Config.EnableExtraMenu then vehicleitems[#vehicleitems+1] = convert(Config.VehicleExtras) end
 
     if Config.VehicleSeats then
@@ -338,6 +339,11 @@ exports('AddOption', function(data, id)
     data.id = data.id or id and id
     lib.addRadialItem(convert(data))
     return data.id
+end)
+
+-- Radio
+RegisterNetEvent('qb-radialmenu:client:openradio', function(data)
+    ExecuteCommand('radiocar')
 end)
 
 exports('RemoveOption', function(id)
