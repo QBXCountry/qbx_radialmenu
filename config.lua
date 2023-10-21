@@ -493,7 +493,7 @@ Config.VehicleRadio = {
     label = 'Radio',
     icon = 'play',
     type = 'client',
-    event = 'qbx-radialmenu:client:openradio',
+    event = 'qb-radialmenu:client:openradio',
     shouldClose = true
 }
 
