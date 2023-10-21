@@ -488,6 +488,15 @@ Config.VehicleSeats = {
     menu = 'vehicleseatsmenu'
 }
 
+Config.VehicleRadio = {
+    id = 'radio',
+    label = 'Radio',
+    icon = 'play',
+    type = 'client',
+    event = 'qbx-radialmenu:client:openradio',
+    shouldClose = true
+}
+
 Config.JobInteractions = {
     ["ambulance"] = {
         {
