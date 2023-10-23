@@ -698,7 +698,7 @@ local Extras = {
 	["Shirt"] = {
 		Drawable = 11,
 		Table = {
-			Standalone = true, male = 252, female = 74,
+			Standalone = true, male = 252, female = 74 },
 			Extra = {
 				{Drawable = 8, Id = 15, Tex = 0, Name = "Extra Undershirt"},
 				{Drawable = 3, Id = 15, Tex = 0, Name = "Extra Gloves"},
