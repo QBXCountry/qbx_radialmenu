@@ -145,6 +145,7 @@ Config.MenuItems = {
                                 icon = 'box-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
+                                arg = {id = 'setstash'},
                                 shouldClose = true
                             }, {
                                 id = 'setoutift',
