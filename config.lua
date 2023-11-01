@@ -161,7 +161,7 @@ Config.MenuItems = {
                                 icon = 'door-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
-                                arg = {id = 'setoutift'},
+                                arg = {id = 'setlogout'},
                                 shouldClose = true
                             }
                         }
