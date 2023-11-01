@@ -153,6 +153,7 @@ Config.MenuItems = {
                                 icon = 'shirt',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
+                                arg = {id = 'setoutift'},
                                 shouldClose = true
                             }, {
                                 id = 'setlogout',
@@ -160,6 +161,7 @@ Config.MenuItems = {
                                 icon = 'door-open',
                                 type = 'client',
                                 event = 'qb-houses:client:setLocation',
+                                arg = {id = 'setoutift'},
                                 shouldClose = true
                             }
                         }
