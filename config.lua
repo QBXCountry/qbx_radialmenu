@@ -101,7 +101,7 @@ Config.MenuItems = {
         title = 'General',
         icon = 'rectangle-list',
         items = {
-            {
+--[[            {
                 id = 'house',
                 title = 'House Interaction',
                 icon = 'house',
@@ -167,7 +167,7 @@ Config.MenuItems = {
                         }
                     }
                 }
-            }, {
+            },]] {
                 id = 'clothesmenu',
                 title = 'Clothing',
                 icon = 'shirt',
