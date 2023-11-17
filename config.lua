@@ -309,6 +309,13 @@ Config.MenuItems = {
                         }
                     }
                 }
+            }, {
+                id = 'medita',
+                title = 'Meditazione',
+                icon = 'peace',
+                type = 'client',
+                event = 'p33t-meditate:client:meditate',
+                shouldClose = true
             }
         }
     },
@@ -639,6 +646,13 @@ Config.JobInteractions = {
             icon = 'id-card',
             type = 'client',
             event = 'police:client:SeizeDriverLicense',
+            shouldClose = true
+        }, {
+            id = 'mdt',
+            title = 'MDT',
+            icon = 'tablet',
+            type = 'server',
+            event = 'mdt:server:openMDT',
             shouldClose = true
         }, {
             id = 'policeinteraction',
