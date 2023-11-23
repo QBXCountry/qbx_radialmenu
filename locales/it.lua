@@ -16,11 +16,17 @@ local Translations = {
         trunk_closed = "Il bagagliaio è chiuso",
         cant_enter_trunk = "Non puoi entrare in questo bagagliaio",
         already_in_trunk = "Sei già nel bagagliaio",
-        someone_in_trunk = "Qualcuno è già nel bagagliaio"
+        cancel_task = "Attività annullata",
+        someone_in_trunk = "Qualcuno è già nel bagagliaio",
+        no_vehicle_nearby = "Nessun veicolo nelle vicinanze da capovolgere."
+    },
+    progress = {
+        flipping_car = "Capovolgendo veicolo..."
     },
     success = {
         extra_activated = "Extra %{extra} è stato attivato",
-        entered_trunk = "Tu sei nel bagagliaio"
+        entered_trunk = "Tu sei nel bagagliaio",
+        flipped_car = "Veicolo capovolto con successo!"
     },
     info = {
         no_variants = "Non sembrano esserci varianti per questo",
@@ -40,9 +46,13 @@ local Translations = {
         close_trunk_button = "[G] Chiudi il bagagliaio",
         open_trunk_button = "[G] Apri il bagagliaio",
         getintrunk_command_desc = "Entra nel bagagliaio",
-        putintrunk_command_desc = "Metti cittadino nel bagagliaio"
+        putintrunk_command_desc = "Metti cittadino nel bagagliaio",
+        gang_radial = "Gang",
+        job_radial = "Job"
     },
     options = {
+        flip = 'Gira Veicolo',
+        vehicle = 'Veicolo',
         emergency_button = "Bottone di emergenza",
         driver_seat = "sedile del conducente",
         passenger_seat = "sedile del passeggero",
