@@ -18,7 +18,7 @@ Config.MenuItems = {
                 shouldClose = true
             }, {
                 id = 'getintrunk',
-                title = 'Get In Trunk',
+                title = 'Entra nel bagagliaio',
                 icon = 'car',
                 type = 'client',
                 event = 'qb-trunk:client:GetIn',
@@ -32,40 +32,40 @@ Config.MenuItems = {
                 shouldClose = true
             }, {
                 id = 'togglehotdogsell',
-                title = 'Hotdog Selling',
+                title = 'Vendita Hotdog',
                 icon = 'hotdog',
                 type = 'client',
                 event = 'qb-hotdogjob:client:ToggleSell',
                 shouldClose = true
             }, {
                 id = 'interactions',
-                title = 'Interaction',
+                title = 'Interazione',
                 icon = 'triangle-exclamation',
                 items = {
                     {
                         id = 'handcuff',
-                        title = 'Cuff',
+                        title = 'Ammanetta',
                         icon = 'user-lock',
                         type = 'client',
                         event = 'police:client:CuffPlayerSoft',
                         shouldClose = true
                     }, {
                         id = 'playerinvehicle',
-                        title = 'Put In Vehicle',
+                        title = 'Metti nel veicolo',
                         icon = 'car-side',
                         type = 'client',
                         event = 'police:client:PutPlayerInVehicle',
                         shouldClose = true
                     }, {
                         id = 'playeroutvehicle',
-                        title = 'Take Out Of Vehicle',
+                        title = 'Estrai dal veicolo',
                         icon = 'car-side',
                         type = 'client',
                         event = 'police:client:SetPlayerOutVehicle',
                         shouldClose = true
                     }, {
                         id = 'stealplayer',
-                        title = 'Rob',
+                        title = 'Rapina',
                         icon = 'mask',
                         type = 'client',
                         event = 'police:client:RobPlayer',
@@ -86,7 +86,7 @@ Config.MenuItems = {
                         shouldClose = true
                     }, {
                         id = 'escort554',
-                        title = 'Hostage',
+                        title = 'Ostaggio',
                         icon = 'child',
                         type = 'client',
                         event = 'A5:Client:TakeHostage',
@@ -98,7 +98,7 @@ Config.MenuItems = {
     },
     [2] = {
         id = 'general',
-        title = 'General',
+        title = 'Generale',
         icon = 'rectangle-list',
         items = {
 --[[            {
@@ -169,7 +169,7 @@ Config.MenuItems = {
                 }
             },]] {
                 id = 'clothesmenu',
-                title = 'Clothing',
+                title = 'Vestiario',
                 icon = 'shirt',
                 items = {
                     {
@@ -230,7 +230,7 @@ Config.MenuItems = {
                         shouldClose = true
                     }, {
                         id = 'meer',
-                        title = 'Extras',
+                        title = 'Extra',
                         icon = 'plus',
                         items = {
                             {
@@ -323,12 +323,12 @@ Config.MenuItems = {
 
 Config.VehicleDoors = {
     id = 'vehicledoors',
-    title = 'Vehicle Doors',
+    title = 'Porte veicolo',
     icon = 'car-side',
     items = {
         {
             id = 'door0',
-            title = 'Drivers door',
+            title = 'Guidatore',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -336,7 +336,7 @@ Config.VehicleDoors = {
             shouldClose = false
         }, {
             id = 'door4',
-            title = 'Hood',
+            title = 'Cofano',
             icon = 'car',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -344,7 +344,7 @@ Config.VehicleDoors = {
             shouldClose = false
         }, {
             id = 'door1',
-            title = 'Passengers door',
+            title = 'Passeggero',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -352,7 +352,7 @@ Config.VehicleDoors = {
             shouldClose = false
         }, {
             id = 'door3',
-            title = 'Right rear',
+            title = 'Post Destra',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -360,7 +360,7 @@ Config.VehicleDoors = {
             shouldClose = false
         }, {
             id = 'door5',
-            title = 'Trunk',
+            title = 'Bagagliaio',
             icon = 'car',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -368,7 +368,7 @@ Config.VehicleDoors = {
             shouldClose = false
         }, {
             id = 'door2',
-            title = 'Left rear',
+            title = 'Post Sinistra',
             icon = 'car-side',
             type = 'client',
             event = 'qb-radialmenu:client:openDoor',
@@ -493,7 +493,7 @@ Config.VehicleExtras = {
 
 Config.VehicleSeats = {
     id = 'vehicleseats',
-    label = 'Vehicle Seats',
+    label = 'Sedili veicolo',
     icon = 'chair',
     menu = 'vehicleseatsmenu'
 }
@@ -590,7 +590,7 @@ Config.JobInteractions = {
     ["mechanic"] = {
         {
             id = 'towvehicle',
-            title = 'Tow vehicle',
+            title = 'Carica veicolo',
             icon = 'truck-pickup',
             type = 'client',
             event = 'qb-tow:client:TowVehicle',
@@ -614,7 +614,7 @@ Config.JobInteractions = {
             shouldClose = true
         }, {
             id = 'takedriverlicense',
-            title = 'Revoke Drivers License',
+            title = 'Revoca patente',
             icon = 'id-card',
             type = 'client',
             event = 'police:client:SeizeDriverLicense',
@@ -628,12 +628,12 @@ Config.JobInteractions = {
             shouldClose = true
         }, {
             id = 'policeinteraction',
-            title = 'Police Actions',
+            title = 'Azioni Polizia',
             icon = 'list-check',
             items = {
                 {
                     id = 'statuscheck',
-                    title = 'Check Health Status',
+                    title = 'Controlla stato salute',
                     icon = 'heart-pulse',
                     type = 'client',
                     event = 'hospital:client:CheckStatus',
@@ -647,21 +647,21 @@ Config.JobInteractions = {
                     shouldClose = true
                 }, {
                     id = 'escort',
-                    title = 'Escort',
+                    title = 'Scorta',
                     icon = 'user-group',
                     type = 'client',
                     event = 'police:client:EscortPlayer',
                     shouldClose = true
                 }, {
                     id = 'searchplayer',
-                    title = 'Search',
+                    title = 'Perquisisci',
                     icon = 'magnifying-glass',
                     type = 'client',
                     event = 'police:client:SearchPlayer',
                     shouldClose = true
                 }, {
                     id = 'jailplayer',
-                    title = 'Jail',
+                    title = 'Arresta',
                     icon = 'user-lock',
                     type = 'client',
                     event = 'police:client:JailPlayer',
@@ -675,7 +675,7 @@ Config.JobInteractions = {
             items = {
                 {
                     id = 'spawnpion',
-                    title = 'Cone',
+                    title = 'Cono',
                     icon = 'triangle-exclamation',
                     type = 'client',
                     event = 'police:client:spawnPObj',
@@ -722,7 +722,7 @@ Config.JobInteractions = {
                     shouldClose = false
                 }, {
                     id = 'deleteobject',
-                    title = 'Remove object',
+                    title = 'Rimuovi Oggetto',
                     icon = 'trash',
                     type = 'client',
                     event = 'police:client:deleteObject',
@@ -747,14 +747,14 @@ Config.GangInteractions = {
     ["lostmc"] = {
         {
             id = 'handcuff',
-            title = 'Handcuff',
+            title = 'Ammanetta',
             icon = 'handcuffs',
             type = 'client',
             event = 'police:client:CuffPlayerSoft',
             shouldClose = true
         },{
             id = 'playerinvehicle',
-            title = 'Put In Vehicle',
+            title = 'Metti nel veicolo',
             icon = 'car-side',
             type = 'client',
             event = 'police:client:PutPlayerInVehicle',
